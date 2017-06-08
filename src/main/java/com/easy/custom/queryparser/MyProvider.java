@@ -52,5 +52,7 @@ public class MyProvider extends CustomScoreProvider {
                 ,subQueryScore,valSrcScore,year_score,money_socre);
         return  subQueryScore*valSrcScore*year_score*money_socre;
     }
-
+    public static void main(String[] args) {
+		String s=null;
+	}
 }
